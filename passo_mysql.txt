@@ -1,0 +1,10 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '*Mss140920@';
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by '*Mss140920@';
+
+CREATE USER 'micheldb'@'localhost' IDENTIFIED BY '*Mss140920@';
+
+CREATE DATABASE olist_db;
+
+GRANT ALL PRIVILEGES ON olist_db.* TO 'micheldb'@'localhost';
+
